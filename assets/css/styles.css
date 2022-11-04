@@ -1,0 +1,82 @@
+:root {
+    --dark: rgb(16, 25, 53);
+    --mint: #9AD4D6;
+    --grape: #564787;
+}
+
+/* Text */
+h1, h2, h3 , h4, h5, h6, a, p {
+    font-family: 'Poppins', sans-serif;
+  }
+
+a{
+    color: var(--dark) !important;
+}
+a:hover{
+    color: var(--mint) !important;
+}
+
+/* Buttons */
+.btn-primary{
+    background: var(--dark);
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff !important;
+    width: 150px;
+    text-align: center;
+    font-weight: 300;
+    align-self: end;
+    border: none;
+}
+
+.btn-primary:hover{
+    background: var(--mint);
+    color: var(--dark) !important;
+}
+
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+    /* position: fixed; */
+    width: 100%;
+    /* background: url("../images/transparency.png"); */
+    background-color: transparent !important;
+    /* background-size: cover; */
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand {
+    font-size: 24px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Main content */
+.card {
+    border: none;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card-title{
+    font-size: 24px;
+}
+
+.hero .col-sm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img{
+    background: var(--mint);
+    max-width: 500px;
+}
