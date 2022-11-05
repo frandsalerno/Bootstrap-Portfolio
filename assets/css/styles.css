@@ -19,6 +19,7 @@ a{
 }
 a:hover{
     color: var(--mint) !important;
+    text-decoration: none;
 }
 
 /* Buttons */
@@ -71,10 +72,6 @@ a:hover{
     border: none;
 }
 
-.card-body{
-    padding: 0;
-}
-
 .card-title{
     font-size: 24px;
 }
@@ -88,4 +85,33 @@ a:hover{
 .avatar img{
     background: var(--mint);
     max-width: 500px;
+}
+
+/* My work */
+.card{
+    margin: 0 auto;
+}
+#mywork .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.card-img{
+    overflow: hidden;
+}
+.card-img, .card-img-top {
+    border-radius: 0 !important;
+}
+
+.card img{
+    filter: grayscale(100%);
+    transition: all 0.6s ease;
+}
+
+.card:hover img{
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+
+.card-footer{
+    font-weight: bold;
+    background: none;
 }
