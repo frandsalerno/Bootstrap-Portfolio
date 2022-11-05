@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav sticky-top">
         <a class="navbar-brand" href="#">Fran Salerno</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +23,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-            <a class="nav-link" href="#">About me</a>
+            <a class="nav-link" href="#">My work</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">My work</a>
+            <a class="nav-link" href="#">About me</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Get in touch</a>
@@ -34,23 +34,30 @@
         </ul>
         </div>
     </nav>
-  <!-- End navigation bar -->
-  <!-- Main content -->
-    <main class="container-fluid hero">
+    <!-- End navigation bar -->
+    
+    <!-- Hero Section -->
+    <div class="jumbotron jumbotron-fluid container-fluid hero">
         <section class="row vh-100">
-            <div class="col-sm order-2 order-sm-1 order-md-1 order-lg-1">
+            <div class="col-sm order-2 order-sm-1 ">
                 <div class="card">
                     <div class="card-body">
                       <p class="card-title">Hola, I'm Fran Salerno</p>
-                      <h1 class="card-text">Web developer ready to be part of your digital journey.</h1>
+                      <h1 class="card-text mb-4">Web developer ready to be part of your digital journey.</h1>
                       <a href="#" class="btn btn-primary mt-sm-5">Get in touch</a>
                     </div>
                   </div>
             </div>
-            <div class="col-sm avatar order-1 order-sm-2 order-md-2 order-lg-2">
+            <div class="col-sm avatar order-1 order-sm-2 justify-content-center justify-content-md-end">
                 <img class="rounded-circle img-fluid w-75 float-right " src="./assets/images/avatar.png" alt="cartoon style avatar">
             </div>
         </section>
+    </div>
+    <!-- End Hero -->
+
+  <!-- Main content -->
+    <main class="container-fluid ">
+        
     </main>
   <!-- End of Main -->
 
