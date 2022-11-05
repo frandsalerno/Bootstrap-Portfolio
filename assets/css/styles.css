@@ -4,6 +4,11 @@
     --grape: #564787;
 }
 
+body{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
 /* Text */
 h1, h2, h3 , h4, h5, h6, a, p {
     font-family: 'Poppins', sans-serif;
@@ -34,16 +39,20 @@ a:hover{
     color: var(--dark) !important;
 }
 
+/* Hero */
+.jumbotron{
+    background: none;
+    padding: 0 1rem !important;
+}
+
+
 
 /* Navigation bar */
 
 /* General */
 .customNav {
-    /* position: fixed; */
     width: 100%;
-    /* background: url("../images/transparency.png"); */
     background-color: transparent !important;
-    /* background-size: cover; */
     z-index: 10;
   }
   .navbar-nav {
