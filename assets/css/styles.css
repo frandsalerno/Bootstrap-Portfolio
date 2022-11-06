@@ -9,6 +9,15 @@ body{
     margin: 0 auto;
 }
 
+ul{
+    list-style: none
+}
+
+.btn:hover{
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* Text */
 h1, h2, h3 , h4, h5, h6, a, p {
     font-family: 'Poppins', sans-serif;
@@ -25,6 +34,10 @@ a{
 a:hover{
     color: var(--mint) !important;
     text-decoration: none;
+}
+
+a:hover svg{
+    fill: var(--mint) !important;
 }
 
 /* Buttons */
@@ -78,7 +91,7 @@ a:hover{
 }
 
 .card-title{
-    font-size: 24px;
+    font-size: 23px;
 }
 
 .hero .col-sm{
@@ -123,3 +136,16 @@ a:hover{
     font-weight: bold;
     background: none;
 }
+
+/* Skills */
+
+#skills ul{
+    margin: 0 auto;
+}
+
+/* Footer */
+
+/* footer a:hover{
+    -webkit-box-shadow: 1px 1px 6px -1px #000000; 
+    box-shadow: 1px 1px 6px -1px #000000;
+} */
