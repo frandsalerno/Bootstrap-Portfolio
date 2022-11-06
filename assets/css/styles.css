@@ -14,6 +14,11 @@ h1, h2, h3 , h4, h5, h6, a, p {
     font-family: 'Poppins', sans-serif;
   }
 
+.h2, h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 a{
     color: var(--dark) !important;
 }
@@ -53,7 +58,7 @@ a:hover{
 /* General */
 .customNav {
     width: 100%;
-    background-color: transparent !important;
+    background-color: rgba(255,255,255,0.8) !important;
     z-index: 10;
   }
   .navbar-nav {
@@ -99,6 +104,9 @@ a:hover{
 }
 .card-img, .card-img-top {
     border-radius: 0 !important;
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
 }
 
 .card img{
