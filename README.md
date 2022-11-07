@@ -12,7 +12,7 @@ My personal portfolio, handcrafted using HTML amd CSS, using bootstrap as the ma
 - [Credits](#credits)
 - [License](#license)
 
-##Screenshots
+## Screenshots
 ![alt text](https://github.com/frandsalerno/Bootstrap-Portfolio/blob/main/assets/images/desktop.png "Screenshot desktop version")
 
 ![alt text](https://github.com/frandsalerno/Bootstrap-Portfolio/blob/main/assets/images/tablet.png "Screenshot tablet version")
